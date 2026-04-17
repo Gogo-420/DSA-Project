@@ -1,0 +1,6 @@
+Scenario,Doctors,Nurses,Beds,TotalPatients,Discharged,P1_Critical,P2_Emergent,P3_Urgent,P4_SemiUrgent,TargetMeetRate%,AvgWaitTriage_min,AvgWaitDoctor_min,AvgLOS_min,AvgLabTurnaround_min,PeakQueueDepth,DoctorUtilisation%,BedUtilisation%,LabsOrdered
+Understaffed ED,3,4,10,103,103,10,16,43,34,4.9,0.1,860.0,924.3,44.9,81,98.1,0.0,51
+Standard ED (baseline),5,8,20,124,124,10,20,48,46,8.1,0.0,601.6,669.6,45.6,92,96.7,0.0,69
+Well-staffed ED,8,12,30,124,124,10,20,48,46,21.8,0.0,254.3,322.6,44.5,69,95.2,0.0,71
+Surge scenario (mass casualty),6,10,25,227,227,16,43,83,85,4.4,0.0,1031.3,1096.0,45.7,192,97.4,0.0,121
+Optimised staffing (extra doctors),10,10,25,159,159,13,25,59,62,16.4,0.0,280.1,346.2,45.0,91,92.5,0.0,95

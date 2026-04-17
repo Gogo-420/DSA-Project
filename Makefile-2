@@ -1,0 +1,17 @@
+CXX      = g++
+CXXFLAGS = -std=c++17 -O2 -Wall -Wextra -I.
+TARGET   = hospital_sim
+
+all: $(TARGET)
+
+$(TARGET): main.cpp
+	$(CXX) $(CXXFLAGS) -o $@ main.cpp
+
+run: all
+	./$(TARGET)
+
+clean:
+	rm -f $(TARGET)
+	rm -f output/results.csv
+
+.PHONY: all run clean
