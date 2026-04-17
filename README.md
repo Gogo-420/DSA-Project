@@ -139,9 +139,3 @@ Introduce machine learning for predictive staffing
 Model additional hospital departments
 Add real-time simulation UI
 Parallelize simulation for performance
----------------------------------------------------------
-🤝 Contributors
-Abhinav Anand
-Vedansh Mahar
-Nishant Sharma
-Vikas Choudhary
